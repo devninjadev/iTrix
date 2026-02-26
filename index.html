@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ITRIX Mockup</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" aria-label="주요 메뉴">
+      <div class="logo">로고</div>
+
+      <nav class="site-nav" aria-label="메인 네비게이션">
+        <a href="#section-1">HOME</a>
+        <a href="#section-2">ABOUT</a>
+        <a href="#section-3">Tech</a>
+        <a href="#section-3">Contact</a>
+      </nav>
+
+      <button class="search-btn" type="button" aria-label="검색">
+        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
+        </svg>
+      </button>
+    </header>
+
+    <main class="main-container">
+      <section id="section-1" class="panel panel-1">
+        <video
+          class="panel-bg-video"
+          autoplay
+          muted
+          loop
+          playsinline
+          preload="auto"
+          aria-hidden="true"
+        >
+          <source src="assets/rummikub.mp4" type="video/mp4" />
+        </video>
+
+        <div class="panel-content">
+          <h1 class="panel-title">Lorem Ipsum Dolor Sit Amet</h1>
+          <p class="panel-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
+          </p>
+        </div>
+      </section>
+
+      <section id="section-2" class="panel panel-2">
+        <div class="panel-content">
+          <h2 class="panel-title">Consectetur Adipiscing Elit</h2>
+          <p class="panel-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, ut labore et dolore magna aliqua.
+          </p>
+        </div>
+      </section>
+
+      <section id="section-3" class="panel panel-3">
+        <div class="panel-content">
+          <h2 class="panel-title">Sed Do Eiusmod Tempor</h2>
+          <p class="panel-text">
+            Lorem ipsum dolor sit amet, veniam quis nostrud exercitation ullamco laboris nisi ut.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" aria-label="푸터 메뉴">
+      <ul class="footer-menu">
+        <li><a href="#">Lorem</a></li>
+        <li><a href="#">Ipsum</a></li>
+        <li><a href="#">Dolor</a></li>
+        <li><a href="#">Sit</a></li>
+      </ul>
+
+      <p class="footer-copy">COPYRIGHT ©2023, ITRIX ALL RIGHTS RESERVED.</p>
+    </footer>
+  </body>
+</html>
