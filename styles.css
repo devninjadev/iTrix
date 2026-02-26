@@ -69,7 +69,7 @@ a {
   margin-left: auto;
   width: 38px;
   height: 38px;
-  border: 1px solid var(--line);
+  border: 0;
   background: transparent;
   color: var(--text);
   cursor: pointer;
