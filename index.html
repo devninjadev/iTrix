@@ -3,25 +3,31 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ITRIX Mockup</title>
+    <title>itriX</title>
+    <link rel="icon" type="image/png" sizes="128x128" href="assets/favicon.png" />
     <link rel="stylesheet" href="styles.css" />
+    <script src="site.js" defer></script>
   </head>
   <body>
     <header class="site-header" aria-label="주요 메뉴">
-      <div class="logo">로고</div>
+      <a class="logo" href="#section-1" aria-label="itriX 홈">
+        <img src="assets/logo.png" alt="itriX" />
+      </a>
 
-      <nav class="site-nav" aria-label="메인 네비게이션">
-        <a href="#section-1">HOME</a>
-        <a href="#section-2">ABOUT</a>
-        <a href="#section-3">Tech</a>
+      <nav class="site-nav" id="site-nav" aria-label="메인 네비게이션" data-site-nav>
+        <a href="about.html">ABOUT</a>
+        <a href="#section-2">FQNM</a>
+        <a href="#section-3">AXIOM</a>
         <a href="#section-3">Contact</a>
       </nav>
 
-      <button class="search-btn" type="button" aria-label="검색">
-        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-          <path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
-        </svg>
+      <button class="menu-toggle" type="button" aria-label="메뉴 열기" aria-controls="site-nav" aria-expanded="false" data-menu-toggle>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
       </button>
+
+      <div class="nav-backdrop" data-menu-backdrop></div>
     </header>
 
     <main class="main-container">
@@ -38,30 +44,39 @@
           <source src="assets/rummikub.mp4" type="video/mp4" />
         </video>
 
-        <div class="panel-content">
-          <h1 class="panel-title">Lorem Ipsum Dolor Sit Amet</h1>
-          <p class="panel-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
-          </p>
-        </div>
+        <a class="panel-hit-area" href="about.html" aria-label="itriX 브랜드 스토리 페이지로 이동">
+          <div class="panel-content">
+            <h1 class="panel-title">더 큰 문제를 풀 수 있도록</h1>
+            <p class="panel-text">
+              itriX는 현대 인공지능의 한계를 수학적으로 다시 설계하는 딥테크 기업입니다. AXIOM과 FQNM을 비롯한 독자 기술군으로 AI와 물리 시뮬레이션의 계산 기반을 확장하고, 인류의 다음 도전을 가능하게 합니다.
+            </p>
+            <span class="panel-read-more"><span class="panel-read-more-label">더 읽어보기</span></span>
+          </div>
+        </a>
       </section>
 
       <section id="section-2" class="panel panel-2">
-        <div class="panel-content">
-          <h2 class="panel-title">Consectetur Adipiscing Elit</h2>
-          <p class="panel-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, ut labore et dolore magna aliqua.
-          </p>
-        </div>
+        <a class="panel-hit-area" href="physical-ai.html" aria-label="차세대 물리 AI를 위한 계산 인프라 상세 페이지로 이동">
+          <div class="panel-content">
+            <h2 class="panel-title">차세대 물리 AI를 위한 계산 인프라</h2>
+            <p class="panel-text">
+              itriX는 물리 시뮬레이션의 병목을 줄이는 독자 계산 기술로, 더 빠르고 비용 효율적인 Physical AI 인프라를 구축합니다. 고성능 해석이 필요한 산업 전반에서 계산 비용 절감, 모델 신뢰도 향상, 하드웨어 효율 개선으로 이어질 수 있는 확장형 기술 플랫폼을 지향합니다.
+            </p>
+            <span class="panel-read-more"><span class="panel-read-more-label">더 읽어보기</span></span>
+          </div>
+        </a>
       </section>
 
       <section id="section-3" class="panel panel-3">
-        <div class="panel-content">
-          <h2 class="panel-title">Sed Do Eiusmod Tempor</h2>
-          <p class="panel-text">
-            Lorem ipsum dolor sit amet, veniam quis nostrud exercitation ullamco laboris nisi ut.
-          </p>
-        </div>
+        <a class="panel-hit-area" href="axiom.html" aria-label="AI 계산 스택을 단순화하는 AXIOM 엔진 상세 페이지로 이동">
+          <div class="panel-content">
+            <h2 class="panel-title">AI 계산 스택을 단순화하는 AXIOM 엔진</h2>
+            <p class="panel-text">
+              itriX의 AXIOM 엔진은 AI 인프라에서 가장 큰 비용 항목 중 하나인 고차원 연산의 처리 효율을 높이는 기술입니다. 더 빠른 계산, 낮은 메모리 부담, 기존 컴퓨팅 자산의 활용도 개선을 통해 차세대 AI 워크로드의 경제성을 끌어올리는 것을 목표로 합니다.
+            </p>
+            <span class="panel-read-more"><span class="panel-read-more-label">더 읽어보기</span></span>
+          </div>
+        </a>
       </section>
     </main>
 
@@ -73,7 +88,7 @@
         <li><a href="#">Sit</a></li>
       </ul>
 
-      <p class="footer-copy">COPYRIGHT ©2023, ITRIX ALL RIGHTS RESERVED.</p>
+      <p class="footer-copy">COPYRIGHT ©2023, itriX ALL RIGHTS RESERVED.</p>
     </footer>
   </body>
 </html>

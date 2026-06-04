@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>itriX | AXIOM Compute Engine</title>
+    <link rel="icon" type="image/png" sizes="128x128" href="assets/favicon.png" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="site.js" defer></script>
+    <script src="physical-ai.js" defer></script>
+  </head>
+  <body class="detail-body">
+    <header class="site-header" aria-label="주요 메뉴">
+      <a class="logo" href="index.html#section-1" aria-label="itriX 홈">
+        <img src="assets/logo.png" alt="itriX" />
+      </a>
+
+      <nav class="site-nav" id="site-nav" aria-label="메인 네비게이션" data-site-nav>
+        <a href="about.html">ABOUT</a>
+        <a href="index.html#section-2">FQNM</a>
+        <a href="index.html#section-3">AXIOM</a>
+        <a href="index.html#section-3">Contact</a>
+      </nav>
+
+      <button class="menu-toggle" type="button" aria-label="메뉴 열기" aria-controls="site-nav" aria-expanded="false" data-menu-toggle>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </button>
+
+      <div class="nav-backdrop" data-menu-backdrop></div>
+    </header>
+
+    <main class="detail-page" aria-label="AXIOM 계산 엔진">
+      <section class="detail-section detail-section-hero axiom-slide-hero" aria-label="AXIOM compute engine">
+        <div class="detail-copy">
+          <p class="detail-kicker">AXIOM COMPUTE ENGINE</p>
+          <h1>AI 계산 스택을 단순화하는 AXIOM 엔진</h1>
+          <p>
+            AXIOM은 고차원 AI 연산의 복잡성을 실행 가능한 계산 인프라로 낮추는 엔진입니다. itriX는 더 빠른 계산, 낮은 메모리 부담, 기존 컴퓨팅 자산의 활용도 개선을 통해 차세대 AI 워크로드의 경제성을 끌어올리는 기술 스택을 지향합니다.
+          </p>
+          <dl class="detail-meta">
+            <div>
+              <dt>Target</dt>
+              <dd>고차원 AI 연산</dd>
+            </div>
+            <div>
+              <dt>Value</dt>
+              <dd>처리 효율과 비용 구조 개선</dd>
+            </div>
+            <div>
+              <dt>Moat</dt>
+              <dd>계산 커널 레이어 IP</dd>
+            </div>
+          </dl>
+        </div>
+
+        <a class="detail-scroll-cue" href="#axiom-core" aria-label="AXIOM 코어 섹션으로 이동">
+          <span aria-hidden="true">⌄</span>
+        </a>
+      </section>
+
+      <section id="axiom-core" class="detail-section detail-section-carousel" aria-label="AXIOM 코어 구조">
+        <div class="section-carousel" data-carousel>
+          <div class="section-track" data-track>
+            <article class="detail-slide axiom-slide-unified-kernel" aria-label="Unified compute layer">
+              <div class="detail-copy detail-copy-narrow">
+                <p class="detail-kicker">UNIFIED KERNEL LAYER</p>
+                <h2>흩어진 고차원 연산을 하나의 실행 흐름으로</h2>
+                <p>
+                  AI 모델이 커질수록 복소수, 텐서, 회전 구조가 섞인 연산은 별도의 처리 경로를 요구합니다. AXIOM은 이 복잡성을 공통 실행 레이어로 모아, 계산 스택을 단순화하고 제품화 가능한 인프라 구조로 전환합니다.
+                </p>
+                <dl class="detail-meta">
+                  <div>
+                    <dt>Layer</dt>
+                    <dd>공통 계산 실행 기반</dd>
+                  </div>
+                  <div>
+                    <dt>Scope</dt>
+                    <dd>복소수·텐서형 워크로드</dd>
+                  </div>
+                  <div>
+                    <dt>Outcome</dt>
+                    <dd>커널 전략 단순화</dd>
+                  </div>
+                </dl>
+              </div>
+            </article>
+
+            <article class="detail-slide axiom-slide-cre-geometry" aria-label="CRE representation">
+              <div class="detail-copy">
+                <p class="detail-kicker">CRE REPRESENTATION</p>
+                <h2>구조를 보존하면서 계산 가능한 형태로 바꾸다</h2>
+                <p>
+                  CRE는 연산의 스펙트럼, 역행렬, 안정성 같은 핵심 성질을 유지한 채 고성능 계산 커널이 처리하기 쉬운 형태로 연결합니다. 이는 수학적 정확성과 엔지니어링 효율 사이의 간극을 줄이는 AXIOM의 핵심 장치입니다.
+                </p>
+                <dl class="detail-meta">
+                  <div>
+                    <dt>Integrity</dt>
+                    <dd>스펙트럼과 역연산 보존</dd>
+                  </div>
+                  <div>
+                    <dt>Execution</dt>
+                    <dd>검증된 선형대수 커널 활용</dd>
+                  </div>
+                  <div>
+                    <dt>Risk</dt>
+                    <dd>정확도 손실 관리</dd>
+                  </div>
+                </dl>
+              </div>
+            </article>
+
+            <article class="detail-slide axiom-slide-memory" aria-label="Memory footprint">
+              <div class="detail-copy detail-copy-narrow">
+                <p class="detail-kicker">MEMORY FOOTPRINT</p>
+                <h2>성능을 위해 메모리를 더 쓰는 방식이 아니다</h2>
+                <p>
+                  AXIOM-CRE의 강점은 데이터를 크게 부풀리지 않고 계산 관점을 바꾸는 데 있습니다. 메모리와 통신 비용이 AI 인프라의 핵심 병목으로 올라선 환경에서, 같은 하드웨어로 더 많은 연산을 처리하는 방향은 곧 비용 경쟁력입니다.
+                </p>
+                <dl class="detail-meta">
+                  <div>
+                    <dt>Memory</dt>
+                    <dd>데이터 배치 부담 완화</dd>
+                  </div>
+                  <div>
+                    <dt>Network</dt>
+                    <dd>통신 비용 관리</dd>
+                  </div>
+                  <div>
+                    <dt>Economics</dt>
+                    <dd>인프라 총비용 개선</dd>
+                  </div>
+                </dl>
+              </div>
+            </article>
+          </div>
+
+          <button class="carousel-arrow carousel-arrow-prev" type="button" aria-label="이전 슬라이드" data-prev>
+            <span aria-hidden="true">‹</span>
+          </button>
+          <button class="carousel-arrow carousel-arrow-next" type="button" aria-label="다음 슬라이드" data-next>
+            <span aria-hidden="true">›</span>
+          </button>
+
+          <div class="carousel-dots" aria-label="슬라이드 선택">
+            <button class="carousel-dot is-active" type="button" aria-label="1번 슬라이드" data-dot="0"></button>
+            <button class="carousel-dot" type="button" aria-label="2번 슬라이드" data-dot="1"></button>
+            <button class="carousel-dot" type="button" aria-label="3번 슬라이드" data-dot="2"></button>
+          </div>
+        </div>
+      </section>
+
+      <section id="axiom-economics" class="detail-section detail-section-carousel" aria-label="AXIOM 계산 경제성">
+        <div class="section-carousel" data-carousel>
+          <div class="section-track" data-track>
+            <article class="detail-slide axiom-slide-economics" aria-label="Compute economics">
+              <div class="detail-copy">
+                <p class="detail-kicker">COMPUTE ECONOMICS</p>
+                <h2>AI 인프라의 비용 곡선을 낮추는 연산 효율</h2>
+                <p>
+                  고차원 선형대수는 AI 인프라 비용의 밑바닥에 깔린 반복 지출입니다. AXIOM은 일부 dense 연산 구간에서 런타임 개선 가능성을 보여주는 구조를 바탕으로, 계산량·메모리·전력 비용을 동시에 보는 투자자 관점의 기술입니다.
+                </p>
+                <dl class="detail-meta">
+                  <div>
+                    <dt>Cost</dt>
+                    <dd>반복 연산 비용 절감</dd>
+                  </div>
+                  <div>
+                    <dt>Runtime</dt>
+                    <dd>일부 구간 3-4배 개선 가능성</dd>
+                  </div>
+                  <div>
+                    <dt>Scale</dt>
+                    <dd>워크로드 확대에 따른 레버리지</dd>
+                  </div>
+                </dl>
+              </div>
+            </article>
+
+            <article class="detail-slide axiom-slide-runtime" aria-label="Runtime validation">
+              <div class="detail-copy detail-copy-narrow">
+                <p class="detail-kicker">RUNTIME PATH</p>
+                <h2>새 칩을 기다리지 않고도 검증 가능한 성능 경로</h2>
+                <p>
+                  AXIOM은 기존 수치 라이브러리와 고성능 커널을 활용하는 경로를 갖습니다. 이는 초기 도입 장벽을 낮추고, 소프트웨어 레이어에서 성능 개선을 먼저 검증한 뒤 전용 하드웨어 전략으로 확장할 수 있는 옵션을 제공합니다.
+                </p>
+                <dl class="detail-meta">
+                  <div>
+                    <dt>Adoption</dt>
+                    <dd>기존 스택 위 검증</dd>
+                  </div>
+                  <div>
+                    <dt>Option</dt>
+                    <dd>전용 가속기 확장 여지</dd>
+                  </div>
+                  <div>
+                    <dt>Speed</dt>
+                    <dd>제품화 실험 속도 향상</dd>
+                  </div>
+                </dl>
+              </div>
+            </article>
+          </div>
+
+          <button class="carousel-arrow carousel-arrow-prev" type="button" aria-label="이전 슬라이드" data-prev>
+            <span aria-hidden="true">‹</span>
+          </button>
+          <button class="carousel-arrow carousel-arrow-next" type="button" aria-label="다음 슬라이드" data-next>
+            <span aria-hidden="true">›</span>
+          </button>
+
+          <div class="carousel-dots" aria-label="슬라이드 선택">
+            <button class="carousel-dot is-active" type="button" aria-label="1번 슬라이드" data-dot="0"></button>
+            <button class="carousel-dot" type="button" aria-label="2번 슬라이드" data-dot="1"></button>
+          </div>
+        </div>
+      </section>
+
+      <section id="axiom-platform" class="detail-section detail-section-carousel" aria-label="AXIOM 플랫폼 확장">
+        <div class="section-carousel" data-carousel>
+          <div class="section-track" data-track>
+            <article class="detail-slide axiom-slide-hardware" aria-label="Hardware utilization">
+              <div class="detail-copy">
+                <p class="detail-kicker">HARDWARE UTILIZATION</p>
+                <h2>기존 컴퓨팅 자산에서 더 높은 효율을 끌어내다</h2>
+                <p>
+                  AI 기업의 경쟁력은 모델뿐 아니라 인프라 효율에서 갈립니다. AXIOM은 기존 CPU·GPU·가속기 자산 위에서 계산 경로를 단순화해, 하드웨어 교체 없이도 성능 대비 비용을 개선할 수 있는 소프트웨어 레이어를 목표로 합니다.
+                </p>
+                <dl class="detail-meta">
+                  <div>
+                    <dt>Asset</dt>
+                    <dd>기존 컴퓨팅 자산 활용</dd>
+                  </div>
+                  <div>
+                    <dt>Efficiency</dt>
+                    <dd>성능 대비 비용 개선</dd>
+                  </div>
+                  <div>
+                    <dt>Stack</dt>
+                    <dd>AI 인프라 소프트웨어 레이어</dd>
+                  </div>
+                </dl>
+              </div>
+            </article>
+
+            <article class="detail-slide axiom-slide-ai-workloads" aria-label="AI workloads">
+              <div class="detail-copy detail-copy-narrow">
+                <p class="detail-kicker">AI WORKLOADS</p>
+                <h2>차세대 모델이 요구하는 수학적 연산 기반</h2>
+                <p>
+                  멀티모달 AI, 물리 기반 모델, 과학 계산형 AI는 더 복잡한 연산 구조를 요구합니다. AXIOM은 이러한 워크로드가 커질수록 필요한 고차원 계산 기반을 제품 수준의 실행 엔진으로 만드는 방향을 제시합니다.
+                </p>
+                <dl class="detail-meta">
+                  <div>
+                    <dt>Model</dt>
+                    <dd>멀티모달·과학 계산형 AI</dd>
+                  </div>
+                  <div>
+                    <dt>Math</dt>
+                    <dd>고차원 선형대수 기반</dd>
+                  </div>
+                  <div>
+                    <dt>Market</dt>
+                    <dd>차세대 AI 워크로드</dd>
+                  </div>
+                </dl>
+              </div>
+            </article>
+
+            <article class="detail-slide axiom-slide-platform-ip" aria-label="Platform IP">
+              <div class="detail-copy">
+                <p class="detail-kicker">PLATFORM IP</p>
+                <h2>재사용 가능한 계산 IP로 확장하다</h2>
+                <p>
+                  itriX가 구축하려는 것은 단일 알고리즘이 아니라 반복 가능한 계산 레이어입니다. AXIOM은 라이브러리, 엔진, 가속기 전략으로 확장 가능한 기반 기술이며, AI 인프라 시장에서 방어 가능한 지식재산 포지션을 만들 수 있습니다.
+                </p>
+                <dl class="detail-meta">
+                  <div>
+                    <dt>Library</dt>
+                    <dd>고성능 계산 모듈화</dd>
+                  </div>
+                  <div>
+                    <dt>Engine</dt>
+                    <dd>워크로드별 실행 레이어</dd>
+                  </div>
+                  <div>
+                    <dt>IP</dt>
+                    <dd>확장 가능한 기술 자산</dd>
+                  </div>
+                </dl>
+              </div>
+            </article>
+          </div>
+
+          <button class="carousel-arrow carousel-arrow-prev" type="button" aria-label="이전 슬라이드" data-prev>
+            <span aria-hidden="true">‹</span>
+          </button>
+          <button class="carousel-arrow carousel-arrow-next" type="button" aria-label="다음 슬라이드" data-next>
+            <span aria-hidden="true">›</span>
+          </button>
+
+          <div class="carousel-dots" aria-label="슬라이드 선택">
+            <button class="carousel-dot is-active" type="button" aria-label="1번 슬라이드" data-dot="0"></button>
+            <button class="carousel-dot" type="button" aria-label="2번 슬라이드" data-dot="1"></button>
+            <button class="carousel-dot" type="button" aria-label="3번 슬라이드" data-dot="2"></button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" aria-label="푸터 메뉴">
+      <ul class="footer-menu">
+        <li><a href="#">Lorem</a></li>
+        <li><a href="#">Ipsum</a></li>
+        <li><a href="#">Dolor</a></li>
+        <li><a href="#">Sit</a></li>
+      </ul>
+
+      <p class="footer-copy">COPYRIGHT ©2023, itriX ALL RIGHTS RESERVED.</p>
+    </footer>
+  </body>
+</html>
