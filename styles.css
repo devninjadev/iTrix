@@ -1167,7 +1167,7 @@ a {
 .about-hero-statement {
   margin-top: 26px;
   color: #fff;
-  font-size: clamp(32px, 5.6vw, 72px);
+  font-size: 60px;
   font-weight: 800;
   line-height: 1.04;
   letter-spacing: 0;
@@ -1311,7 +1311,7 @@ a {
   max-width: 1120px;
   color: #fff;
   font-size: 60px;
-  line-height: 1.08;
+  line-height: 1.04;
   letter-spacing: 0;
 }
 
@@ -1343,7 +1343,7 @@ a {
   color: #fff;
   font-size: 60px;
   font-weight: 800;
-  line-height: 1.08;
+  line-height: 1.04;
   letter-spacing: 0;
   word-break: keep-all;
 }
@@ -1417,7 +1417,7 @@ a {
   margin: 0 0 22px;
   color: #fff;
   font-size: 60px;
-  line-height: 1.06;
+  line-height: 1.04;
   letter-spacing: 0;
   word-break: keep-all;
 }
@@ -1625,6 +1625,7 @@ a {
 }
 
 @media (max-width: 1200px) {
+  .about-hero-statement,
   .about-question-inner h2,
   .about-mission-line p,
   .about-letter-card h2,
@@ -1635,7 +1636,8 @@ a {
   }
 }
 
-@media (max-height: 700px) {
+@media (max-height: 720px) {
+  .about-hero-statement,
   .about-question-inner h2,
   .about-mission-line p,
   .about-letter-card h2,
@@ -1674,6 +1676,7 @@ a {
 }
 
 @media (max-width: 900px) {
+  .about-hero-statement,
   .about-question-inner h2,
   .about-mission-line p,
   .about-letter-card h2,
@@ -1708,7 +1711,6 @@ a {
 
   .about-hero-statement {
     margin-top: 18px;
-    font-size: clamp(30px, 10vw, 44px);
   }
 
   .about-prose-large p {
@@ -1725,6 +1727,7 @@ a {
   }
 
   .about-question-inner h2,
+  .about-hero-statement,
   .about-mission-line p,
   .about-letter-card h2,
   .about-reconstruction-copy h2,
